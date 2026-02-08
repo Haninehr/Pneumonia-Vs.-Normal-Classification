@@ -32,6 +32,8 @@ Pneumonia Vs. Normal Classification/<br>
 ├──Report<br>
 
 ## Prediction Interface
+![APP screenshot](Screenshots/UI.png)
+<br>
 In addition to the models, a **user-friendly web interface** was developed for real-time prediction.<br>
 
 ### Features
@@ -45,7 +47,6 @@ In addition to the models, a **user-friendly web interface** was developed for r
 
 ### How To Run 
 ->py -m flask run --port 8000 <br>
-![APP screenshot](Screenshots/UI.png)
 
 ## Report
 ### Key facts from the report
