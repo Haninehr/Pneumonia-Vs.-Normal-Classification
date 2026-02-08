@@ -32,9 +32,8 @@ Pneumonia Vs. Normal Classification/<br>
 ├──Report<br>
 
 ## Prediction Interface
-![APP screenshot](Screenshots/UI.png)
-<br>
 In addition to the models, a **user-friendly web interface** was developed for real-time prediction.<br>
+![APP screenshot](Screenshots/UI.png)
 
 ### Features
 - Select model: **CNN** or **ML (Concatenated Features)**<br>
