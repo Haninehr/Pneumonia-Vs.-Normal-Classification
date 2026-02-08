@@ -19,12 +19,12 @@ Two main approaches were developed:<br>
 
 Pneumonia Vs. Normal Classification/<br>
 ├──Code/<br>
-    ├── CNN.py                        # Train CNN directly<br>
-    ├── Data_Augmentation.py          # Script d'augmentation<br>
-    ├── FeaturesExtraction_Sequentiel.py # Sequential Features Extraction<br>
-    ├── FeaturesExtraction_Concatenated.py # Concatenated Features Extraction<br>
-    ├── Train_Sequentiel_Features.py # Train with Sequential Features<br>
-    ├── Train_Concatenated_Features.py # Train with Concatenated Features<br>
+    ├────── CNN.py                        # Train CNN directly<br>
+    ├────── Data_Augmentation.py          # Script d'augmentation<br>
+    ├────── FeaturesExtraction_Sequentiel.py # Sequential Features Extraction<br>
+    ├────── FeaturesExtraction_Concatenated.py # Concatenated Features Extraction<br>
+    ├────── Train_Sequentiel_Features.py # Train with Sequential Features<br>
+    ├────── Train_Concatenated_Features.py # Train with Concatenated Features<br>
 ├──Data # Extarcted Features<br>
 ├──Datasets<br>
 ├──Models <br>
@@ -45,7 +45,7 @@ In addition to the models, a **user-friendly web interface** was developed for r
 
 ### How To Run 
 ->py -m flask run --port 8000 <br>
-📄 [Screenshot)](Screenshots/UI.png)
+![APP screenshot](Screenshots/UI.png)
 
 ## Report
 ### Key facts from the report
@@ -56,7 +56,6 @@ In addition to the models, a **user-friendly web interface** was developed for r
 -Augmentation rules:<br>
     -20% of Pneumonia images<br>
     -100% of Normal images<br>
-
 -Applied transformations: rotation ±15°, shift 5%, zoom 10%, horizontal flip<br>
 📄 [Full Report (PDF)](Report/Report.pdf)
 
